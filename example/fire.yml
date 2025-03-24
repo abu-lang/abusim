@@ -52,4 +52,4 @@ prototypes:
       - bool:reset:false
       - bool:sound:false
     rules:
-      - rule reset_button on reset for this.reset do sound = false; reset = false
+      - rule reset_button on reset for this.reset do sound = false, reset = false
